@@ -1,23 +1,9 @@
 {
-  "name": "nodejs",
+  "name": "simple-node-app",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OluGeorge/Nodejs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OluGeorge/Nodejs/issues"
-  },
-  "homepage": "https://github.com/OluGeorge/Nodejs#readme",
-  "description": "",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+  "dependencies": {}
 }
